@@ -22,7 +22,7 @@ export default function AddPost() {
 
   return (
     <>
-        <Tooltip onClick={e=>setOpen(true)} title="Add post" sx={{position:"fixed", bottom:20, left:{xs:"48%", md:30} }}>
+        <Tooltip onClick={e=>setOpen(true)} title="Add post" sx={{position:"fixed", bottom:20, left:{xs:"45%", md:30} }}>
             <Fab size="medium" color="primary" aria-label="add">
                 <Add />
             </Fab>
